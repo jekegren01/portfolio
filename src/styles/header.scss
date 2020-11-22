@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    min-width: 100vw;
+    height: 6vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 12px 0 0;
+    padding: 0 6px 0 6px;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 32px;
+    position: fixed;
+    overflow: hidden;
+    background-color: $footer-background;
+    z-index: 1;
+    
+    @media (min-width: $tablet) {
+        font-size: 2.5rem;
+    }
+}
+  
+  .nav-links {
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links a {
+    color: #faf7f5;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .pageHeader {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 24px;
+  }
