@@ -11,7 +11,7 @@ export const portfolioData = [
     },
     {
         id: 3,
-        portfolio: "https://front-end-african-market.vercel.app/",
+        portfolio: "https://african-market-jiiwmw0e1.vercel.app",
         repo: "https://github.com/ttwebpt92-africanmarketplace/backend-2",
     },
     {
