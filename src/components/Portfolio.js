@@ -6,6 +6,7 @@ function Portfolio() {
 
     return (
         <div className="portfolio-container">
+            <div className="portfolio-bubble">
             {portfolios.map(p => (
                 <a className="web-anchors" href={p.portfolio} key={p.id}>
                     <div>
@@ -16,6 +17,7 @@ function Portfolio() {
                     </div>
                 </a>
             ))}
+            </div>
         </div>
     )
 }
